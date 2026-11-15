@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/ADLab/client-1%20NIC%20DNS%20point%20to%20dc-1.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Created the Domain Controller VM (Windows Server 2025) named “DC-1” and created the Client VM (Windows 10) named “Client-1” in Microsoft Azure. I then set the Domain Controller’s NIC Private IP address to be static. I then pointed Client-1 NIC DNS settings to DC-1's Private IP address. This way, Client-1 will look towards DC-1 for all resources.
+Created the Domain Controller VM (Windows Server 2025) named “DC-1” and created the Client VM (Windows 11) named “Client-1” in Microsoft Azure. I then set the Domain Controller’s NIC Private IP address to be static. I then pointed Client-1 NIC DNS settings to DC-1's Private IP address. This way, Client-1 will look towards DC-1 for all resources.
 
 
 </p>
