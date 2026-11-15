@@ -91,3 +91,38 @@ attempted to log into Client-1 with one of the accounts.
 
 </p>
 <br />
+
+<p>
+<img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/lock%20outs/account%20lockout%20policy.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/lock%20outs/5%20login%20attempts.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/lock%20outs/locked%20out.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Created Group policy to ensure users will be locked out after 5 login attempts. Failed 5 login attempts with random user baq.hut. Attempted login with user baq.hut to verify account has been locked out.
+
+</p>
+<br />
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/lock%20outs/unlock%20account.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/lock%20outs/disable%20account.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/lock%20outs/reset%20password.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Unlocked user account baq.hut as Admin. Then disabled user account. Then performed password reset.
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/Lasheawil/Active-Directory-Lab/blob/main/lock%20outs/view%20event%20viewer.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Observed login attempt logs via Event Viewer.
+
+</p>
+<br />
